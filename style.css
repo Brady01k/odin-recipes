@@ -15,10 +15,13 @@ h1 {
 h3 { 
     font-size: 28px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 section {
+    float: left;
     margin-left: 50px;
+    width: 40%;
 }
 
 a { 
@@ -39,4 +42,16 @@ button:hover {
     color: #E5EAF5;
     transition: 0.7s;
 }
+
+aside {
+    float:right;
+    width: 40%;
+    margin-right: 50px; 
+}
+
+.about-section {
+    font-size: 21px;
+}
+
+
 
